@@ -1,0 +1,469 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #f1f1f3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.icon{
+    padding-top: 9px;
+    text-align: center;
+    margin-left: 15%;
+    height: 50px;
+    
+}
+.icon1{
+    font-family: 'Supermercado One', cursive;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 19px;
+    color: #484849;
+}
+.icon2{
+    font-size: 6px;
+    letter-spacing: 5px;
+    color: #484849;
+    
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 9px;   
+    margin-right: 15%;
+    margin-left: 31%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #484849;
+    padding-right: 10px;
+    opacity: 0.8;
+}
+.star>img{
+    width: 12px;
+    height: 12px;
+}
+.nav1{
+    margin-top: 90px;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-left: 15%;
+}
+.nav2>div>a{
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849;
+    margin-right: 40px;
+    opacity: 0.8;
+}
+.nav3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-right: 17%;
+}
+.nav3>div>a{
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849;
+    margin-left: 40px;
+    opacity: 0.8;
+}
+.nav2>div>a:hover{
+    border-bottom: 2px solid #f4cc7f;
+}
+.nav3>div>a:hover{
+    border-bottom: 2px solid #f4cc7f;
+}
+.nav3>div>select{
+    border: 1px solid #7e7e81b6; 
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 40px;
+    box-shadow: 0 0 10px rgba(167, 164, 164, 0.5);
+    opacity: 0.8;
+}
+
+.form{
+    position: relative;
+    height: 300px;
+    margin-left: 3%;
+    margin-right: 13%;
+}
+.nav4{
+    margin-top: 85px;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+.nav4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav4>div{
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849;
+    opacity: 0.8;
+}
+.nav4>div>select{
+    font-family:Arial, #484849;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    opacity: 0.8;
+    padding: 5px;
+}
+.nav5{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.nav6{
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav7{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav6>div{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849;
+    margin-top: 5px;
+    opacity: 0.8;
+    
+}
+.nav6>div>select{
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #484849;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    opacity: 0.8;
+    padding: 5px;
+}
+.nav6>div>input{
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #484849; 
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    opacity: 0.8;
+    padding: 5px;
+    margin: 5px;
+}
+.nav6>div>.nav8{
+    margin-top: 20px;
+
+}
+.search>button{
+   top: 15px;
+   width: 180px;
+   border-radius: 30px;
+   position: absolute;
+}
+.main{
+    position: relative;
+    margin-top: 80px;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 2px solid #b0b0b3;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(167, 164, 164, 0.5);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mainImg{
+    margin: 25px;
+    height: 100%;
+    width: 100%; 
+}
+
+.mainInner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 500px;
+    
+}
+.mainInner1>p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849;
+    font-size: larger;
+    font-weight: bold;
+    padding-right: 5px;
+    opacity: 0.8;
+}
+.mainInner1>p>span{
+    font-size: smaller;
+    margin-top: 4px;
+    opacity: 0.5;
+}
+.mainInner2{
+    padding-right:10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 180px;
+    position: absolute;
+}
+h3{
+    padding-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849;
+    font-size: large;
+    font-weight: bold;
+}
+h5{
+    padding: 5px;  
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849; 
+    opacity: 0.5;
+}
+h4{
+    color: #25ce7d;
+    font-weight: bold;
+}
+.mainInner2>div>p{
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849;
+    font-size:medium;
+    font-weight: bold;
+}
+.mainInner2>div>p>span{
+    opacity: 0.5; 
+    padding-left: 4px;
+}
+button{
+    width: 100px;
+    height: 45px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #f4cc7f;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    background-color: #f4cc7f;  
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+}
+button:hover{
+    cursor: pointer;
+}
+.futer{
+    width: 100%;
+    height: 230px;
+    background-color: #f1f1f3;
+    position: relative;
+}
+
+.futer>.icon{
+    margin-top: 65px;
+    position: absolute;
+    font-family: 'Supermercado One', cursive;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 19px;
+    color: #484849;
+}
+.futer>.futherInner1{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 130px;
+    width:40%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+}
+.futer>.icon2{
+    font-size: 10px;
+    letter-spacing: 5px;
+    color: #484849;    
+}
+.futherInner1>div>p{
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849;
+    font: size me 10px;;
+    font-weight: bold;
+}
+.futherInner1>div>p>span{
+    opacity: 0.5; 
+    padding-left: 4px;
+}
+.futherInner1>div>p{
+    opacity: 0.5; 
+    padding-left: 4px;
+}
+
+.futersoc>img{
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.futersoc{
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+}
+.futersoc>p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #484849;
+    opacity: 0.5; 
+    padding-left: 4px;
+}
+@media screen and (max-width: 1412px){
+    .form{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 850px;
+       
+    }
+    .search>button{
+        bottom: 100px;
+        left: 150px;
+        margin-top: 20px;
+        width: 180px;
+        border-radius: 30px;
+        display: inline;
+        position: sticky;
+     }
+    .main{
+        margin-top: 80px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-basis:150px; 
+       flex-wrap: wrap;
+        width: 100%;
+        margin: 2px;
+        
+    }
+    .mainImg>img{
+        position: relative;
+        z-index: -1;
+        width: 90%;
+        display: inline;
+        opacity: 0.5; 
+    }
+    .button{
+        position: absolute;
+        display: inline;
+    }
+    .mainInner1{
+       margin-left: 35px;
+    }
+    
+    .mainInner2{
+        display: flex;
+        padding-right:2px;
+        margin-top: 30px;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 380px;
+        height: 180px;
+        position: absolute;
+        
+    }
+    
+    .mainInner2>div>p>span{
+        opacity: 1;
+        color: #000;
+    }
+    .mainInner1>p{
+        opacity: 1;
+        color: #000;
+    }
+    .mainInner1>p>span{
+        opacity: 1;
+        color: #000;
+        
+    }
+    .mainInner2>div>p{
+        opacity: 1;
+        color: #000;
+    }
+    h5{
+        font-size: 2;
+        opacity: 1;
+        color: #000;  
+    }
+    h3{
+        opacity: 1;
+        color: #000;
+    }
+    h4{
+        font-size: 3;
+        opacity: 1;
+        color: #000;
+    }
+    .futer{
+        display: block;
+        height: auto;
+        position: relative;
+    }
+    .futherInner2{ 
+        display: block;
+        height: auto;
+    }
+    .futersoc{
+        position: absolute;
+        top: 0;
+    }
+    .futherInner>div>p{
+        opacity: 1;
+        color: #000;
+    }
+    .futherInner>div>p>span{
+        opacity: 1;
+        color: #000;
+    }
+}
+
+
