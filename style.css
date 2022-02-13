@@ -1,52 +1,48 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Supermercado One', cursive;
+    box-sizing: border-box
+    
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 .header{
+    position: relative;
     width: 100%;
-    height: 50px;
-    background-color: #f1f1f3;
+    height: 60px;
+    background-color: rgba(167, 164, 164, 0.2);
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-between;
+
 }
-
-
 .icon{
-    padding-top: 9px;
-    text-align: center;
+    margin-top: 2px;
     margin-left: 15%;
-    height: 50px;
-    
-}
-.icon1{
-    font-family: 'Supermercado One', cursive;
-    font-size: large;
-    font-weight: bold;
-    letter-spacing: 19px;
-    color: #484849;
-}
-.icon2{
-    font-size: 6px;
-    letter-spacing: 5px;
-    color: #484849;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+
     
 }
 .nav{
+    position: absolute;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 9px;   
+    font-size: 14px;
+    margin-top: 12px;  
     margin-right: 15%;
-    margin-left: 31%;
+    margin-left: 50%;
+
 }
 
 a{
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
     color: #484849;
     padding-right: 10px;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .star>img{
     width: 12px;
@@ -66,8 +62,7 @@ a{
     margin-left: 15%;
 }
 .nav2>div>a{
-    font-size: large;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
     color: #484849;
     margin-right: 40px;
     opacity: 0.8;
@@ -79,8 +74,7 @@ a{
     margin-right: 17%;
 }
 .nav3>div>a{
-    font-size: large;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
     color: #484849;
     margin-left: 40px;
     opacity: 0.8;
@@ -93,6 +87,7 @@ a{
 }
 .nav3>div>select{
     border: 1px solid #7e7e81b6; 
+    font-size: 16px;
     width: 60px;
     height: 30px;
     border-radius: 20px;
@@ -103,10 +98,11 @@ a{
 
 .form{
     position: relative;
-    height: 300px;
+    height: 180px;
     margin-left: 3%;
     margin-right: 13%;
 }
+
 .nav4{
     margin-top: 85px;
     margin-left: 15%;
@@ -119,13 +115,12 @@ a{
     justify-content: space-between;
 }
 .nav4>div{
-    font-size: large;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14;
     color: #484849;
     opacity: 0.8;
 }
 .nav4>div>select{
-    font-family:Arial, #484849;
+    color:  #484849;
     width: 170px;
     height: 40px;
     border-radius: 20px;
@@ -154,14 +149,12 @@ a{
     flex-wrap: wrap;
 }
 .nav6>div{
-    font-family:Arial, Helvetica, sans-serif;
     color: #484849;
     margin-top: 5px;
     opacity: 0.8;
     
 }
 .nav6>div>select{
-    font-family:Arial, Helvetica, sans-serif;
     border: 1px solid #484849;
     width: 170px;
     height: 40px;
@@ -171,7 +164,6 @@ a{
     padding: 5px;
 }
 .nav6>div>input{
-    font-family:Arial, Helvetica, sans-serif;
     border: 1px solid #484849; 
     width: 170px;
     height: 30px;
@@ -192,6 +184,7 @@ a{
 }
 .main{
     position: relative;
+    margin-bottom: 80px;
     margin-top: 80px;
     height: 300px;
     margin-left: 15%;
@@ -221,17 +214,15 @@ a{
     
 }
 .mainInner1>p{
-    font-family:Arial, Helvetica, sans-serif;
     color: #484849;
-    font-size: larger;
-    font-weight: bold;
-    padding-right: 5px;
+    font-size: 24px;
+    padding-right: 10px;
     opacity: 0.8;
 }
 .mainInner1>p>span{
-    font-size: smaller;
+    font-size: 18px;
     margin-top: 4px;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .mainInner2{
     padding-right:10px;
@@ -246,16 +237,15 @@ a{
 }
 h3{
     padding-bottom: 10px;
-    font-family:Arial, Helvetica, sans-serif;
     color: #484849;
     font-size: large;
-    font-weight: bold;
+    opacity: 0.7;
+    
 }
 h5{
     padding: 5px;  
-    font-family:Arial, Helvetica, sans-serif;
     color: #484849; 
-    opacity: 0.5;
+    opacity: 0.7;
 }
 h4{
     color: #25ce7d;
@@ -263,13 +253,13 @@ h4{
 }
 .mainInner2>div>p{
     padding: 5px;
-    font-family:Arial, Helvetica, sans-serif;
     color: #484849;
     font-size:medium;
-    font-weight: bold;
+    font-weight: lighter;
+    opacity: 0.8;
 }
 .mainInner2>div>p>span{
-    opacity: 0.5; 
+    opacity: 0.6; 
     padding-left: 4px;
 }
 button{
@@ -277,7 +267,6 @@ button{
     height: 45px;
     border-radius: 15px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
     border: 1px solid #f4cc7f;
     padding: 5px;
     padding-left: 15px;
@@ -293,24 +282,23 @@ button:hover{
 }
 .futer{
     width: 100%;
-    height: 230px;
-    background-color: #f1f1f3;
+    height: 100%;
+    padding-bottom: 25px;
+    height: 180px;
+    background-color: rgba(167, 164, 164, 0.2);
     position: relative;
 }
 
 .futer>.icon{
-    margin-top: 65px;
+    margin-top: 25px;
     position: absolute;
-    font-family: 'Supermercado One', cursive;
-    font-size: large;
-    font-weight: bold;
-    letter-spacing: 19px;
-    color: #484849;
+    z-index: -1;
+    opacity: 0.7;
 }
 .futer>.futherInner1{
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 130px;
+    margin-top: 110px;
     width:40%;
     height: 65px;
     display: flex;
@@ -319,26 +307,20 @@ button:hover{
     justify-content: space-between;
     position: absolute;
 }
-.futer>.icon2{
-    font-size: 10px;
-    letter-spacing: 5px;
-    color: #484849;    
-}
+
 .futherInner1>div>p{
     padding: 5px;
-    font-family:Arial, Helvetica, sans-serif;
     color: #484849;
-    font: size me 10px;;
+    font-size:14px;;
     font-weight: bold;
+    padding-left: 4px;
+    
 }
 .futherInner1>div>p>span{
-    opacity: 0.5; 
+    opacity: 0.7; 
     padding-left: 4px;
 }
-.futherInner1>div>p{
-    opacity: 0.5; 
-    padding-left: 4px;
-}
+
 
 .futersoc>img{
     border-radius: 50%;
@@ -351,18 +333,23 @@ button:hover{
     bottom: 20px;
 }
 .futersoc>p{
-    font-family:Arial, Helvetica, sans-serif;
     color: #484849;
-    opacity: 0.5; 
+    opacity: 0.8; 
     padding-left: 4px;
 }
 @media screen and (max-width: 1412px){
+    .header{
+        height: 105px;
+        margin-left: 2px;
+        margin-left: 2px;
+    }
     .form{
+        margin-left: 21%;
         position: relative;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height: 850px;
+        height: 750px;
        
     }
     .search>button{
@@ -448,9 +435,14 @@ button:hover{
         height: auto;
         position: relative;
     }
+    .futer>.icon{
+        margin-top: 65px;
+
+    }
     .futherInner2{ 
         display: block;
         height: auto;
+        
     }
     .futersoc{
         position: absolute;
@@ -465,5 +457,150 @@ button:hover{
         color: #000;
     }
 }
+
+
+
+.headerPaje1{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25%;
+}
+
+.headerPaje1>img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.mainPaje1{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.mainInnerP>p{
+    font-size: 14;
+    text-align: justify;
+}
+h1{
+    padding-bottom: 15px;
+    opacity: 0.8;
+    font-weight: lighter;
+}
+.mainInnerPaje{
+    height: 305px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 100px;
+
+}
+.forBtn{
+    position: relative;
+}
+
+.mainPageImg{
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.mainInnerP{
+    text-align: justify;
+    height: 200px;
+    position: relative;
+    font-size: 14px; 
+    width: 42%;
+    margin: 0;
+}
+.coll{
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+@media screen and (max-width: 1400px){
+    .header{
+        height: 100px;
+    }
+    .nav{
+        margin-left: 15%;
+        margin-top: 50px;
+    }
+
+    .mainPaje1{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .futer{
+        height: 300px;
+    }
+    .futersoc{
+        margin-top: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 1020px){
+    .header{
+        height: 120px;
+    }
+    .icon{
+        margin-top: 0;
+    }
+    .nav{
+        font-size: 12px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .mainInnerPaje{
+        display: block;
+        height: 100%;
+    }
+    
+    .mainInnerP{
+        width: 95%;
+    }
+    .coll{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .mainInnerPaje{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .futersoc{
+        right: 2px;
+        margin-top: 6px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .mainPageImg{
+        width: 200px;
+    }
+    .mainPageImg>img{
+        width: 100%;
+    }
+    .mainInnerP {
+       height: 330px;
+    }
+
+.futer{
+    height:500px;
+    }
+    .futer>.icon{
+        margin-top: 85px;
+    }
+    .futer>.futherInner1{
+margin-top: 140px;
+    }
+}
+
+    
+    
 
 
