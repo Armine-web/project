@@ -531,8 +531,9 @@ h1{
     }
 
     .mainPaje1{
-        margin-left: 2%;
+        margin-left: 25%;
         margin-right: 2%;
+        
     }
 
     .futer{
@@ -544,7 +545,7 @@ h1{
     
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1340px){
     .header{
         height: 120px;
     }
@@ -567,6 +568,9 @@ h1{
     .coll{
         margin-bottom: 10px;
         margin-top: 10px;
+    }
+    .mainInnerP>p{
+        margin-bottom: 15px;
     }
     .mainInnerPaje{
         margin-top: 15px;
