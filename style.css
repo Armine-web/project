@@ -5,6 +5,7 @@
     box-sizing: border-box
     
     
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 .header{
@@ -284,7 +285,7 @@ button:hover{
     width: 100%;
     height: 100%;
     padding-bottom: 25px;
-    height: 180px;
+    height: 200px;
     background-color: rgba(167, 164, 164, 0.2);
     position: relative;
 }
@@ -601,6 +602,190 @@ h1{
     }
     .futer>.futherInner1{
 margin-top: 140px;
+    }
+}
+
+
+
+.mainpage2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.mainpage2Header{
+    margin-top: 105px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bayron{
+    font-size: 36;
+}
+.mainpage2HeaderP{
+    color: #484849;
+    font-size: large;
+    opacity: 0.8;
+}
+.mainpage2HeaderP1{
+    color: #25ce7d;
+
+}
+.mainpage2img{
+    width: 100%;
+}
+.slaid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.map{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.map>div>select {
+    margin-right: 32px;
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.page3bloc{
+    height: 100%;
+    min-height: 240px;
+    width: 100%;
+    border: 2px solid #b0b0b3;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(167, 164, 164, 0.5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 35px;
+
+}
+.page3bloc>p{
+    color: #606061;
+    font-size: 14px;
+    opacity: 0.6;  
+}
+
+.mainFuter3{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 75%;
+    margin-left: 25%;
+    min-height: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.mainFuterColl{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+
+.mainsoc>img{
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+
+
+.btn_1 {
+    top: 90px; 
+    left: 50px;   
+    position: absolute;
+}
+
+.btn_2 {
+    top: 160px;
+    left: 50px;
+    position: absolute;
+}
+
+
+.btn_1>button {
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFD078;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+
+}
+
+
+
+.btn_2>button {
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFD078;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+
+}
+
+
+.btn_1>button>img {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    
+}
+
+
+.btn_1>button>span {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+
+.btn_2>button>img {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+}
+
+
+.btn_2>button>span {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+button:hover {
+    background-color: #fcbe4d;
+}
+
+@media screen and (max-width: 1300px){
+    .mainFuter3{
+        margin-top: 200px;
     }
 }
 
