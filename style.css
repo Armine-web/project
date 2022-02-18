@@ -344,7 +344,7 @@ button:hover{
 }
 @media screen and (max-width: 1412px){
     .header{
-        height: 105px;
+        height: auto;
         margin-left: 2px;
         margin-left: 2px;
     }
@@ -528,7 +528,7 @@ h1{
 }
 @media screen and (max-width: 1400px){
     .header{
-        height: 100px;
+        height: auto;
     }
     .nav{
         margin-left: 15%;
@@ -552,7 +552,7 @@ h1{
 
 @media screen and (max-width: 1340px){
     .header{
-        height: 120px;
+        height: auto;
     }
     .icon{
         margin-top: 0;
@@ -599,7 +599,7 @@ h1{
     }
 
 .futer{
-    height:500px;
+    height: 360px;
     }
     .futer>.icon{
         margin-top: 85px;
@@ -612,10 +612,9 @@ margin-top: 140px;
 
 
 .mainpage2{
-
+width: 1200px;
 height: auto;
-margin-left: 15%;
-margin-right: 15%;
+margin: 0 auto;
 
 }
 .mainpage2Header{
@@ -761,8 +760,15 @@ margin-right: 15%;
 
 @media screen and (max-width: 1300px){
     .mainFuter3{
-        margin-top: 200px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
+    .mainpage2{
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+        
+        }
 }
 
     
