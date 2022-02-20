@@ -10,32 +10,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Supermercado+One&display=swap');
 
 .header{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
     width: 100%;
     height:auto;
     background-color: rgba(167, 164, 164, 0.2);
-    display: flex;
-    justify-content: space-between;
-
+   
 }
-.icon{
-    margin-left: 15%;
+.headerinner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.headerinner>.icon{
     z-index: -1;
     opacity: 0.7;
 
-    
+}
+.navbody{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
 }
 .nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 14px; 
-    margin-right: 15%;
-    margin-left: 15%;
-
 }
 
 a{
@@ -60,7 +63,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    margin-left: 15%;
+
 }
 .nav2>div>a{
     font-size: 16px;
@@ -72,7 +75,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
-    margin-right: 17%;
 }
 .nav3>div>a{
     font-size: 16px;
@@ -99,15 +101,14 @@ a{
 
 .form{
     position: relative;
-    height: 180px;
-    margin-left: 3%;
-    margin-right: 13%;
+    height: auto;
+
 }
 
 .nav4{
     margin-top: 85px;
-    margin-left: 15%;
-    margin-right: 20%;
+    margin-right: 250px;
+
 }
 .nav4{
     display: flex;
@@ -137,8 +138,7 @@ a{
 
 .nav6{
     margin-top: 30px;
-    margin-left: 15%;
-    margin-right: 20%;
+    margin-right: 250px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -181,8 +181,9 @@ div>input{
     width: 170px;
     height: 40px;
 }
-.search>button{
+.form>button{
    top: 15px;
+   right: 0;
    width: 180px;
    border-radius: 30px;
    position: absolute;
@@ -191,9 +192,7 @@ div>input{
     position: relative;
     margin-bottom: 80px;
     margin-top: 80px;
-    height: 300px;
-    margin-left: 15%;
-    margin-right: 15%;
+    height: auto;
     border: 2px solid #b0b0b3;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(167, 164, 164, 0.5);
@@ -202,9 +201,10 @@ div>input{
     flex-wrap: wrap;
 }
 
+
 .mainImg{
     margin: 25px;
-    height: 100%;
+    height: auto;
     width: 100%; 
 }
 
@@ -270,13 +270,9 @@ h4{
 button{
     width: 100px;
     height: 45px;
-    border-radius: 15px;
+    border-radius: 30px;
     font-weight: bold;
     border: 1px solid #f4cc7f;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
     background-color: #f4cc7f;  
     position: absolute;
     right: 50px;
@@ -284,34 +280,36 @@ button{
 }
 button:hover{
     cursor: pointer;
+    background-color: #fabf53; 
 }
 .futer{
     width: 100%;
-    height: 100%;
-    padding-bottom: 25px;
-    height: 200px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 25px;
     background-color: rgba(167, 164, 164, 0.2);
-    position: relative;
 }
-
-.futer>.icon{
-    margin-top: 25px;
-    position: absolute;
-    z-index: -1;
-    opacity: 0.7;
-}
-.futer>.futherInner1{
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 110px;
-    width:40%;
+.futherinner{
+    margin: 0 auto;
+    width: 1200px;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: absolute;
+    align-items: flex-end;
 }
+.futherInner1{
+    display: flex;
+    flex-direction: column;
+}
+
+.futherInner1>.icon{
+    z-index: -1;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+
 
 .futherInner1>div>p{
     padding: 5px;
@@ -332,153 +330,53 @@ button:hover{
     margin-right: 5px;
 }
 
-.futersoc{
-    position: absolute;
-    right: 15%;
-    bottom: 20px;
-}
+
 .futersoc>p{
     color: #484849;
     opacity: 0.8; 
     padding-left: 4px;
 }
-@media screen and (max-width: 1412px){
-    .header{
-        height: auto;
-        margin-left: 2px;
-        margin-left: 2px;
-    }
-    .form{
-        margin-left: 21%;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 750px;
-       
-    }
-    .search>button{
-        bottom: 100px;
-        left: 150px;
-        margin-top: 20px;
-        width: 180px;
-        border-radius: 30px;
-        display: inline;
-        position: sticky;
-     }
-    .main{
-        margin-top: 80px;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-basis:150px; 
-       flex-wrap: wrap;
-        width: 100%;
-        margin: 2px;
-        
-    }
-    .mainImg>img{
-        position: relative;
-        z-index: -1;
-        width: 90%;
-        display: inline;
-        opacity: 0.5; 
-    }
-    .button{
-        position: absolute;
-        display: inline;
-    }
-    .mainInner1{
-       margin-left: 35px;
-    }
-    
-    .mainInner2{
-        display: flex;
-        padding-right:2px;
-        margin-top: 30px;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 380px;
-        height: 180px;
-        position: absolute;
-        
-    }
-    
-    .mainInner2>div>p>span{
-        opacity: 1;
-        color: #000;
-    }
-    .mainInner1>p{
-        opacity: 1;
-        color: #000;
-    }
-    .mainInner1>p>span{
-        opacity: 1;
-        color: #000;
-        
-    }
-    .mainInner2>div>p{
-        opacity: 1;
-        color: #000;
-    }
-    h5{
-        font-size: 2;
-        opacity: 1;
-        color: #000;  
-    }
-    h3{
-        opacity: 1;
-        color: #000;
-    }
-    h4{
-        font-size: 3;
-        opacity: 1;
-        color: #000;
-    }
-    .futer{
-        display: block;
-        height: auto;
-        position: relative;
-    }
-    .futer>.icon{
-        margin-top: 65px;
 
+
+@media screen and (max-width: 1412px){
+    .headerinner{
+        width: 100%;
+    }  
+    .navbody{
+        width: 100%;
     }
-    .futherInner2{ 
-        display: block;
-        height: auto;
-        
+    .form>button{
+        position: sticky;
+        margin-top: 5px;
+        bottom: 0;
+        left: 0;
     }
-    .futersoc{
-        position: absolute;
-        top: 0;
+    .futherinner{
+        width: 100%;
     }
-    .futherInner>div>p{
-        opacity: 1;
-        color: #000;
-    }
-    .futherInner>div>p>span{
-        opacity: 1;
-        color: #000;
-    }
+    
 }
+    
 
 
 
 .headerPaje1{
     width: 100%;
     height: auto;
-    margin-bottom: 25%;
+    margin-bottom: 100px;
 }
 
 .headerPaje1>img{
-    position: absolute;
     width: 100%;
-    z-index: -1;
+    height: auto;
+
 }
+
 .mainPaje1{
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
 }
 .mainInnerP>p{
     font-size: 14;
@@ -490,7 +388,7 @@ h1{
     font-weight: lighter;
 }
 .mainInnerPaje{
-    height: 305px;
+    height: auto;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -500,11 +398,11 @@ h1{
     margin-bottom: 100px;
 
 }
-.forBtn{
-    position: relative;
-}
+
 
 .mainPageImg{
+    width: 500px;
+    height: 300px;
     border-radius: 20px;
     overflow: hidden;
 
@@ -512,10 +410,10 @@ h1{
 
 .mainInnerP{
     text-align: justify;
-    height: 200px;
+    height: auto;
     position: relative;
     font-size: 14px; 
-    width: 42%;
+    width: 500px;
     margin: 0;
 }
 .coll{
@@ -523,90 +421,20 @@ h1{
     width: 150px;
     border-radius: 30px;
     position: absolute;
-    bottom: 0px;
+    bottom: -70px;
     left: 0;
 }
 @media screen and (max-width: 1400px){
-    .header{
-        height: auto;
-    }
-    .nav{
-        margin-left: 15%;
-        margin-top: 50px;
-    }
-
     .mainPaje1{
-        margin-left: 25%;
-        margin-right: 2%;
-        
-    }
-
-    .futer{
-        height: 300px;
-    }
-    .futersoc{
-        margin-top: 100px;
-    }
-    
-}
-
-@media screen and (max-width: 1340px){
-    .header{
+        width: 100%;
         height: auto;
     }
-    .icon{
-        margin-top: 0;
+    .mainInnerPaje.M{
+        display: flex;
+        flex-direction: column-reverse;
     }
-    .nav{
-        font-size: 12px;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-    .mainInnerPaje{
-        display: block;
-        height: 100%;
-    }
-    
-    .mainInnerP{
-        width: 95%;
-    }
-    .coll{
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    .mainInnerP>p{
-        margin-bottom: 15px;
-    }
-    .mainInnerPaje{
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .futersoc{
-        right: 2px;
-        margin-top: 6px;
-    }
-}
-
-@media screen and (max-width: 590px){
-    .mainPageImg{
-        width: 200px;
-    }
-    .mainPageImg>img{
-        width: 100%;
-    }
-    .mainInnerP {
-       height: 330px;
-    }
-
-.futer{
-    height: 360px;
-    }
-    .futer>.icon{
-        margin-top: 85px;
-    }
-    .futer>.futherInner1{
-margin-top: 140px;
-    }
+   
+   
 }
 
 
