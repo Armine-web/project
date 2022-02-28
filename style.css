@@ -484,15 +484,27 @@ margin: 0 auto;
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 40px;
+
+
 }
 
-.map>div>select {
-    margin-right: 32px;
-    border: none;
-    font-size: 16px;
-    font-weight: bolder;
-    color: rgba(0, 0, 0, 0.7);
+.map>div>{
+    padding: 0;
 }
+
+.map>div>a{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 7px;
+
+}
+.map>div>a:hover{
+    border-bottom: 2px solid #f5b846;
+}
+
+
+
 
 .page3bloc{
     height: 100%;
@@ -597,6 +609,22 @@ margin: 0 auto;
         margin: 5px auto;
         
         }
+    .slaid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.video-1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.arrow-up{
+    border-bottom: solid 2px #f5be57;;
 }
 
     
