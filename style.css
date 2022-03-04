@@ -8,7 +8,13 @@
     
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Supermercado+One&display=swap');
-
+p{
+    color: #636368;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
 .header{
     width: 100%;
     height:auto;
@@ -95,7 +101,7 @@ a{
     height: 30px;
     border-radius: 20px;
     margin-left: 40px;
-    box-shadow: 0 0 10px rgba(167, 164, 164, 0.5);
+    box-shadow: 0 0 20px rgba(218, 214, 214, 0.5);
     opacity: 0.8;
 }
 
@@ -187,21 +193,28 @@ div>input{
    width: 180px;
    border-radius: 30px;
    position: absolute;
+   right: 50px;
+   bottom: 40px;
+
 }
 .main{
-    position: relative;
+    width: 100%;
     margin-bottom: 80px;
     margin-top: 80px;
     height: auto;
-    border: 2px solid #b0b0b3;
+    border: 0.5px solid #b0b0b3;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(167, 164, 164, 0.5);
+    box-shadow: 0 0 20px rgba(218, 214, 214, 0.4);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+.maininner{
+    display: flex;
+    flex-direction: column;
 
+}
 .mainImg{
     margin: 25px;
     height: auto;
@@ -209,13 +222,9 @@ div>input{
 }
 
 .mainInner1{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    position: absolute;
-    margin-left: 500px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
     
 }
 .mainInner1>p{
@@ -229,17 +238,7 @@ div>input{
     margin-top: 4px;
     opacity: 0.6;
 }
-.mainInner2{
-    padding-right:10px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 480px;
-    height: 180px;
-    position: absolute;
-}
+
 h3{
     padding-bottom: 10px;
     color: #484849;
@@ -274,14 +273,15 @@ button{
     font-weight: bold;
     border: 1px solid #f4cc7f;
     background-color: #f4cc7f;  
-    position: absolute;
-    right: 50px;
-    bottom: 40px;
+
 }
 button:hover{
     cursor: pointer;
     background-color: #fabf53; 
 }
+
+
+
 .futer{
     width: 100%;
     height: auto;
@@ -399,8 +399,8 @@ h1{
 
 }
 
-
 .mainPageImg{
+
     width: 500px;
     height: 300px;
     border-radius: 20px;
@@ -428,6 +428,10 @@ h1{
     .mainPaje1{
         width: 100%;
         height: auto;
+    }
+    .mainInnerPaje{
+        display: flex;
+        flex-direction: column;
     }
     .mainInnerPaje.M{
         display: flex;
@@ -510,9 +514,9 @@ margin: 0 auto;
     height: 100%;
     min-height: 240px;
     width: 100%;
-    border: 2px solid #b0b0b3;
+    border: 1px solid #b0b0b3;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(167, 164, 164, 0.5);
+    box-shadow: 0 0 20px rgba(218, 214, 214, 0.5);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -578,6 +582,7 @@ margin: 0 auto;
     border: none;
     border-radius: 25px;
     margin-bottom: 15px;
+    
 }
 
 .btn_1>a>span{
@@ -588,6 +593,7 @@ margin: 0 auto;
 }
 .btn_1>a>img{
     margin-left: 10px;
+    
 }
 
 
@@ -611,8 +617,7 @@ margin: 0 auto;
         }
     .slaid{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: nowrap;
     }
 }
 
@@ -627,7 +632,79 @@ margin: 0 auto;
     border-bottom: solid 2px #f5be57;;
 }
 
-    
-    
+.page5{
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 700px;
 
+}
+.page5iner{
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.page5iner .title{
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 24px;
+    color: #333335;
+}
+.page5iner .titlesmol{
+    font-weight:  500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #353131;
+}
+    
+.page5iner p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1300px){
+    .page5{
+        width: 100%;
+    }
+}
+
+
+.page6{
+    height: 1000px;
+    width: 550px;
+    margin: 0 auto;
+    align-items: center;
+    
+    
+}
+.page6iner{
+    line-height: 16px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 64px;
+}
+.page6iner div a span{
+    font-size: 14px;
+}
+
+.page6 .title{
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 24px;
+    color: #37373a;
+}
+.page6title{
+    padding-right: 102px;
+}
+.page6title p{
+    font-weight:  bold;
+    color: #141414;
+    letter-spacing: 1px;
+}
 
