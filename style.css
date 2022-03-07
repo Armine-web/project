@@ -451,8 +451,6 @@ button:hover{
     } 
 }
 
-
-
 .mainpage2{
     width: 1200px;
     height: auto;
@@ -497,8 +495,7 @@ button:hover{
 }
 .btn_1{
  
-    padding: 14px;
-    text-align: start;
+    padding: 10px;
     width: 200px;
     height: 45px;
     background-color: #dfa53a; 
@@ -511,14 +508,19 @@ button:hover{
     background-color: #f4cc7f; 
     cursor: pointer;
 }
-.viber::before{
-    content: "✆";
+.viber img{
+    margin-left: 5px;
+    margin-right: 7px;
 }
 .viber{
+    display: flex;
+    justify-content:  baseline;
+    align-items: center;
+    text-align: start;
     color: #000;
     font-weight: 600;
 
- 
+
 }
 
 .map div{
@@ -608,7 +610,7 @@ button:hover{
         margin-left: 8px;
         margin-right: 8px;
         
-        }
+    }
     .slaid{
         flex-wrap: nowrap;
     }
@@ -621,11 +623,23 @@ button:hover{
     .page3bloc1{
         flex-direction: column;
     }
+    .mainSoc, .tuBloc {
+        display: none;
+    }
+    .futherinner{
+
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 30px;
+    }
     .Feature{
         margin-bottom: 20px;
     }
     .mainpage2Header{
         margin-top: 30px;
+    }
+    .futersoc{
+        margin-top: 20px;
     }
 }
 
@@ -671,8 +685,7 @@ button:hover{
 @media screen and (max-width: 1300px){
     .page5{
         width: 100%;
-    }
-    
+    }  
 }
 
 
